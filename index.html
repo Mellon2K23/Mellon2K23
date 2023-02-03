@@ -1,82 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="author" content="CodeHim">
-      <title> Card Outer GLow Effect Example </title>
-      <!-- Style CSS -->
-      <link rel="stylesheet" href="./css/style.css">
-      <!-- Demo CSS (No need to include it into your project) -->
-      <link rel="stylesheet" href="./css/demo.css">
-      
-   </head>
-   <body>
-      <header class="cd__intro">
-         <!--<h1> Card Outer GLow Effect Example </h1>
-         <p> Card Outer GLow Effect </p>
-         <div class="cd__action">
-            <a href="https://www.codehim.com/html5-css3/css-expandable-card-with-neon-glow" title="Back to download and tutorial page" class="cd__btn back">Back to Tutorial</a>
-         </div>-->
-      </header>
-	  
-      <!--$%adsense%$-->
-      <main class="cd__main">
-         <!-- Start DEMO HTML (Use the following code into your project)-->
-         <div class="container">
-     <div class="card">
-       <div class="face face1">
-         <div class="content">
-            <i class="fab fa-windows"></i>            
-           <h3>Windows</h3>
-         </div>
-       </div>
-       <div class="face face2">
-         <div class="content">
-           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
-           <a href="#" type="button">Read More</a>
-         </div>
-       </div>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="flt.mp4" type="video/mp4">
+    </video>
+
+    <div class="countdown">
+        <div class="box">
+            <span class="num" id="day-box">00</span>
+            <span class="text">Days</span>
+        </div>
+        <div class="box">
+            <span class="num" id="hr-box">00</span>
+            <span class="text">Hours</span>
+        </div>
+        <div class="box">
+            <span class="num" id="min-box">00</span>
+            <span class="text">Minutes</span>
+        </div>
+        <div class="box">
+            <span class="num" id="sec-box">00</span>
+            <span class="text">Seconds</span>
+        </div>
     </div>
-    
-    <div class="card">
-       <div class="face face1">
-         <div class="content">
-      <i class="fab fa-android"></i>               <h3>Android</h3>
-         </div>
-       </div>
-       <div class="face face2">
-         <div class="content">
-           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
-           <a href="#" type="button">Read More</a>
-         </div>
-       </div>
-    </div>
-    
-    
-    <div class="card">
-       <div class="face face1">
-         <div class="content">
-           <i class="fab fa-apple"></i>
-            <h3>Apple</h3>
-         </div>
-       </div>
-       <div class="face face2">
-         <div class="content">
-           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
-           <a href="#" type="button">Read More</a>
-         </div>
-       </div>
-    </div>
-    
-  </div>
-  <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
-         <!-- END EDMO HTML (Happy Coding!)-->
-      </main>
-      <!--<footer class="cd__credit">Author: quangdao - Distributed By: <a title="Free web design code & scripts" href="https://www.codehim.com?source=demo-page" target="_blank">CodeHim</a></footer>-->
-      
-      <!-- Script JS -->
-      <script src="./js/script.js"></script>
-      <!--$%analytics%$-->
-   </body>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
 </html>
