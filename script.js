@@ -5,7 +5,7 @@ let secBox = document.getElementById("sec-box");
 
 // Format: Date(year, month, day, hour, minute)
 // Month is zero-based (0 for January, 1 for February, etc.)
-let endDate = new Date(2024, 8, 31, 14, 11); // August is month 7 (0-based)
+let endDate = new Date(2024, 7, 31, 14, 15); // August is month 7 (0-based)
 let endTime = endDate.getTime();
 
 function countdown() {
